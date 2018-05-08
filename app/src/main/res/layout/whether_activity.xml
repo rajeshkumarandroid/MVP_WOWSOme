@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edttxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/txt_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Country:"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/txt_city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="City:"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Description:"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/txt_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Wind:"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/txt_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Temp:"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/txt_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Humidity:"
+        android:textColor="#000"/>
+
+
+
+</LinearLayout>
