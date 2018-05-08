@@ -12,6 +12,8 @@ package wowsome.com.wowsome.network;
 
     public static String GettingResDataBasedOnLat = "GettingResDataBasedOnLat";
     public static String uccfm_app_common_dtls = "uccfm_app_common_dtls";
+    public static String IMAGE_URL = "https://www.brainyquote.com/authors/a_p_j_abdul_kalam/";
+//    https://www.brainyquote.com/authors/a_p_j_abdul_kalam?SPvm=1"
 
 
 }

@@ -19,6 +19,8 @@
         </activity>
         <activity android:name=".ui.whether.WhetherActivity"
             />
+        <activity android:name=".ui.show_images.ImagesFetch"/>
+        <activity android:name=".ui.show_images.LoadImagesActivity"/>
 
     </application>
 

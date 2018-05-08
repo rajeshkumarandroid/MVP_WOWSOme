@@ -19,6 +19,8 @@ import wowsome.com.wowsome.network.APIS;
 import wowsome.com.wowsome.network.RetrofitClient;
 import wowsome.com.wowsome.presenter.DashboardPresenter;
 import wowsome.com.wowsome.presenter.Launcher;
+import wowsome.com.wowsome.ui.show_images.ImagesFetch;
+import wowsome.com.wowsome.ui.show_images.LoadImagesActivity;
 import wowsome.com.wowsome.ui.whether.WhetherActivity;
 
 public class MainActivity extends AppCompatActivity implements Launcher {
@@ -106,7 +108,8 @@ public class MainActivity extends AppCompatActivity implements Launcher {
                 startActivity(new Intent(this, WhetherActivity.class));
                 break;
             case 2:
-                Toast.makeText(this, "Images Under consrtuction", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, "Images Under consrtuction", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, LoadImagesActivity.class));
                 break;
 
         }
