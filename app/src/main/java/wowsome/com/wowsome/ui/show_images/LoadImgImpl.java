@@ -16,13 +16,23 @@ public class LoadImgImpl implements LoadImagePresenter {
 
 
     @Override
-    public void fetchPresenter(FetchData fetchData) {
-        FetchCitiesList.getInstance().getImageData(fetchData);
+    public void fetchPresenter(FetchData fetchData,int spage,String nextpagetoken) {
+        FetchCitiesList.getInstance().getImageData(fetchData,spage,nextpagetoken);
     }
 
     @Override
     public void getResponse(String response) {
         fetchData.getResponse(response);
 
+    }
+
+    @Override
+    public void showProgressbar() {
+        fetchData.showProgressbar();
+    }
+
+    @Override
+    public void hideProgressbar() {
+        fetchData.hideProgressbar();
     }
 }

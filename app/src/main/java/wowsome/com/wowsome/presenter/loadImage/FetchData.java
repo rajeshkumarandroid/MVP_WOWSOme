@@ -5,4 +5,6 @@ package wowsome.com.wowsome.presenter.loadImage;
  */
 public interface FetchData {
     void getResponse(String  response);
+    void showProgressbar();
+    void hideProgressbar();
 }

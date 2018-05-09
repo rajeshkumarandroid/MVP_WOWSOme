@@ -15,7 +15,8 @@ package wowsome.com.wowsome.network;
     public static String IMAGE_URL = "https://www.brainyquote.com/authors/a_p_j_abdul_kalam/";
 //    https://www.brainyquote.com/authors/a_p_j_abdul_kalam?SPvm=1"
 public static final String YOUTUBE_API_KEY = "AIzaSyANC7YXqT-P7JYbsFShIl_6dhAEdkfYIEo";
-    public static String YoutubeAPi = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=" + "News" + "&type=video&key=AIzaSyANC7YXqT-P7JYbsFShIl_6dhAEdkfYIEo&maxResults=" + 10 + "&pageToken=" ;
+//    public static String YoutubeAPi = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=" + "News" + "&type=video&key=AIzaSyANC7YXqT-P7JYbsFShIl_6dhAEdkfYIEo&maxResults=" + 10 + "&pageToken=" ;
+    public static String YoutubeAPi = "https://www.googleapis.com/youtube/v3/search/" ;
 
 
 }

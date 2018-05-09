@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
-import android.widget.Toast;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,7 +18,6 @@ import wowsome.com.wowsome.network.APIS;
 import wowsome.com.wowsome.network.RetrofitClient;
 import wowsome.com.wowsome.presenter.DashboardPresenter;
 import wowsome.com.wowsome.presenter.Launcher;
-import wowsome.com.wowsome.ui.show_images.ImagesFetch;
 import wowsome.com.wowsome.ui.show_images.LoadImagesActivity;
 import wowsome.com.wowsome.ui.whether.WhetherActivity;
 

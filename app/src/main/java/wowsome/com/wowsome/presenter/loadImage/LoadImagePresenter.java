@@ -5,6 +5,6 @@ package wowsome.com.wowsome.presenter.loadImage;
  */
 public interface LoadImagePresenter extends FetchData {
 
-    void fetchPresenter(FetchData fetchData);
+    void fetchPresenter(FetchData fetchData,int spage,String nextpagetoken);
 
 }
